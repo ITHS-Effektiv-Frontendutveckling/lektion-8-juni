@@ -20,7 +20,7 @@ function App() {
     }
 
     getTodos();
-  }, []);
+  }, [dispatch]);
 
   return (
     <section>
